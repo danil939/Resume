@@ -141,9 +141,9 @@ a:visited{
 background:#b9bbbe;
  } */
 
- .contact{
+ /* .contact{
   text-align:center;
- }
+ } */
  .form-group label{
 display: block;
 font-size:14px;
@@ -162,7 +162,11 @@ color: #86898f;
   outline: none;
   font-family: inherit;
  }
-
+ .form-group input{
+   padding-left: 10px;
+   border-radius: 10px;
+   margin-top: 5px;
+ }
  .row{
   display: flex;
   margin-bottom: 20px;
@@ -173,10 +177,6 @@ color: #86898f;
    margin-right: 20px;
  }
 
- .row > .form-group:first-child{
-   /* margin-right: 0; */
- 
- }
 
  .btn{
    color:#fff;
@@ -190,6 +190,9 @@ cursor: pointer;
    opacity: 0.9;
  }
 
+ .textarea{
+   border-radius: 10px;
+ }
  /* position */
 
  /* .position{
