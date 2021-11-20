@@ -1,0 +1,38 @@
+@media (max-width: 700px) {
+    .info{
+      display : block;
+      text-align: center;
+      
+    }
+    .row{
+    display: block;
+        
+    }
+    .row > .form-group{
+    width: 100%;   
+    }
+    .row > .form-group:nth-child(1){
+        margin-bottom: 10px;
+    }
+
+    .bind{
+    text-align: center;
+    }
+    .btn{
+        border-radius:10px;
+    }
+
+    .info-text > .btn{
+        padding: 10px 15px ;
+    }
+
+    .i_telegram{
+        width: 20px;
+        height: 20px;
+    }
+    .i_arrow_1{
+        width: 15px;
+        height: 15px;
+    }
+
+  }
